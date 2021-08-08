@@ -1,8 +1,11 @@
+import { Header } from "./componentes/layout/header";
+import { Content } from "./componentes/layout/content";
 
 const App = ()=> {
   return (
     <div className="App">
-      <h1>hello world</h1>
+       <Header/>
+       <Content/>
     </div>
   );
 }
